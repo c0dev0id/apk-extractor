@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--
+        APK files are installed under /data/app/ on all Android versions.
+        A root-path scoped to /data/ is the minimal permission that covers
+        all possible APK installation paths (including obfuscated paths on
+        Android 10+ such as /data/app/~~xxx/com.pkg-1/base.apk).
+    -->
+    <root-path name="apk_files" path="/data/" />
+</paths>
